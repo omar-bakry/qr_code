@@ -4,30 +4,26 @@
 body{
     background-color:hsl(212, 45%, 89%) ;
     font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
 }
-.g {
- width: 280px ;
- height: 500px;
- background-color: hsl(0, 0%, 100%);
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
- margin:40px auto;
- padding: 10px;
- border-radius: 10px;
- text-align: center;
+section {
+ max-width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff;
 }
-.h{
- width: 100%;
-border-radius: 10px;
+.down {
+    text-align: center;
+    padding: 15px;
 }
-h3{
-    padding: 0px 20px;
-    margin: 20px 0px 0px;
-    font-size: 24px;
+.down p {
+    color: hsl(220, 15%, 55%);
+    font-size: 20px;
 }
-h5{
-    padding: 0px 10px;
-    color:hsl(212, 50%, 84%) ;
-    margin: 0px 0px ;
+.img_div img{
+    border-radius: 10px;
+    max-width:100%;
 }
